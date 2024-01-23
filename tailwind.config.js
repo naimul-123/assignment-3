@@ -4,7 +4,7 @@ module.exports = {
     theme: {
       extend: {
         colors: {
-          'oxford-blue': 'rgba(19,19,24)',
+          'oxford-blue': '#131318',
           
         },
       },
