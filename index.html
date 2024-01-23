@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- Tailwind daisy -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" /> 
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/37ea7adc84.js" crossorigin="anonymous"></script>
+    <title>Assignment-3</title>
+    <style>
+        body{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="max-w-[1440px] mx-auto" >
+    <header >
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li class="font-normal text-base text-[#424247] hover:text-red-700"><a>Home</a></li>
+                        <li class="font-normal text-base text-[#424247] hover:text-red-700"><a>About</a></li>
+                        <li class="font-normal text-base text-[#424247] hover:text-red-700"><a>Pages</a></li>
+                        <li class="font-normal text-base text-[#424247] hover:text-red-700"><a>Blog</a></li>
+                        <li class="font-normal text-base text-[#424247] hover:text-red-700"><a>Contact</a></li>>
+                    </ul>
+                  </div>
+                  <a class=" text-4xl text-neutral-800 font-extrabold">Hockey <span class="text-red-600">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li class="font-normal text-base text-[#424247] hover:text-red-700"><a >Home</a></li>
+                    <li class="font-normal text-base text-[#424247] hover:text-red-700"><a>About</a></li>
+                    <li class="font-normal text-base text-[#424247] hover:text-red-700"><a>Pages</a></li>
+                    <li class="font-normal text-base text-[#424247] hover:text-red-700"><a>Blog</a></li>
+                    <li class="font-normal text-base text-[#424247] hover:text-red-700"><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end space-x-6">
+                   <button class=" hidden md:inline-block"><i class="fa-solid fa-magnifying-glass"></i></button>
+                  <a class=" rounded-lg py-4 px-6 bg-[#FF4240] text-white text-xl font-bold">Get Ticket</a>
+                </div>
+              </div>
+        </nav>
+        <div>
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                <img src="./Images/1.png" class="w-full" />
+                <div class=" flex justify-center  lg:left-5 absolute gap-3 lg:gap-5 left-[40%] bottom-5">
+                    <a href="#slide4" class="btn btn-circle  bg-black text-white hover:text-black">❮</a> 
+                    <a href="#slide2" class="btn btn-circle  bg-black text-white hover:text-black">❯</a>
+                </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                <img src="./Images/1.png" class="w-full" />
+                <div class=" flex justify-center  lg:left-5 absolute gap-3 lg:gap-5 left-[40%] bottom-5 ">
+                    <a href="#slide1" class="btn btn-circle  bg-black text-white hover:text-black">❮</a> 
+                    <a href="#slide3" class="btn btn-circle  bg-black text-white hover:text-black" >❯</a>
+                </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                <img src="./Images/1.png" class="w-full" />
+                <div class=" flex justify-center  lg:left-5 absolute gap-3 lg:gap-5 left-[40%] bottom-5">
+                    <a href="#slide2" class="btn btn-circle  bg-black text-white hover:text-black">❮</a> 
+                    <a href="#slide4" class="btn btn-circle  bg-black text-white hover:text-black">❯</a>
+                </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                <img src="./Images/1.png" class="w-full" />
+                <div class=" flex justify-center  lg:left-5 absolute gap-3 lg:gap-5 left-[40%] bottom-5">
+                    <a href="#slide3" class="btn btn-circle bg-black text-white hover:text-black">❮</a> 
+                    <a href="#slide1" class="btn btn-circle bg-black text-white  hover:text-black">❯</a>
+                </div>
+                </div>
+
+            </div>
+
+
+            <div class="w-full p-8 lg:absolute lg:right-[14%] lg:bottom-[160px] lg:w-[566px] h-[156px] bg-[#131318] text-[#fff] rounded-2xl inline-flex flex-col gap-2 my-4">
+                <h3 class="text-2xl font-extrabold">Meet all the heroes from the field</h3>
+                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+        </div>       
+    </header>
+    <main>
+
+            <div class="text-center w-full my-24 border-y-2 p-8 border-dashed ">
+                <div class="max-w-screen-md mx-auto space-y-6 ">
+                    <h1 class="text-4xl text-[#131318] font-extrabold">Professional Hockeys Club</h1>
+                    <p class=" text-base text-[rgb(19,19,24)] text-opacity-60">Welcome to the heart of hockey passion where the thrill of the game meets the spirit of community. </p>
+                </div>
+
+            </div>
+            <div class="flex flex-col lg:flex-row text-oxford-blue text-center max-w-screen-lg mx-auto gap-8  ">
+                <div class="space-y-4">
+                    <div class="radial-progress text-red-500 before:rotate-180 " style="--value:87;" role="progressbar"> <span class="text-[#131318] font-extrabold text-xl">87%</span></div>
+                    <h5 class="text-xl font-semibold ">Prayer Facility</h5>
+                    <p class="text-base font-normal  text-opacity-60">You have facility to pray your own.</p>
+                </div>
+                <div class="space-y-4">
+                    <div class="radial-progress  text-green-500 before:rotate-180" style="--value:95;" role="progressbar"><span class="text-[#131318] font-extrabold text-xl">87%</span></div>
+                    <h5 class="text-xl font-semibold ">Experienced Coach</h5>
+                    <p class="text-base font-normal  text-opacity-60">We have many exprienched coach for train up.</p>
+                </div>
+                <div class="space-y-4">
+                    <div class="radial-progress  text-yellow-500 before:rotate-180" style="--value:90;" role="progressbar"><span class="text-[#131318] font-extrabold text-xl">90%</span></div>
+                    <h5 class="text-xl font-semibold ">Senior Player</h5>
+                    <p class="text-base font-normal  text-opacity-60">Senior players are angaged with ue.</p>
+                </div>
+                <div class="space-y-4">
+                    <div class="radial-progress  text-blue-500 before:rotate-180" style="--value:80;" role="progressbar"><span class="text-[#131318] font-extrabold text-xl">80%</span></div>
+                    <h5 class="text-xl font-semibold">Training Ground</h5>
+                    <p class="text-base font-normal text-opacity-60">A big training ground we have!.</p>
+                </div>
+            </div>
+            <div class="text-center w-full my-24 border-y-2 py-8 px-8 border-dashed space-y-6">
+                <div class="max-w-screen-md mx-auto space-y-6 ">
+                    <h1 class="text-4xl text-[#131318] font-extrabold">Program Sections</h1>
+                    <p class=" text-base text-[rgb(19,19,24)] text-opacity-60">we don't just play hockey; we live and breathe it. From the adrenaline-pumping goals to the euphoria of victory, every moment on the ice is a testament to our unwavering dedication to the game. But our story goes beyond the rink – it's about the people who make up our extraordinary community.</p>
+                </div>
+
+            </div>
+
+            <div class="grid text-white grid-cols-1 lg:grid-cols-2 gap-6 my-12">
+                <div class="bg-[linear-gradient(45deg,rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url(./Images/2.png)] bg-no-repeat bg-cover rounded-2xl p-6 lg:p-10 space-y-4  lg:min-h-80">
+    
+                        <h2 class="lg:mt-12 text-3xl font-extrabold">Junior Program</h2>
+                        <p class="text-base font-extralight leading-relaxed">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                        <button class=" rounded-2xl hover:text-red-600 hover:bg-white outline-none bg-red-600 text-white px-5 py-3 border-red-600 border-solid border-2 text-xl font-bold ">Register Now!</button>
+                 
+
+                </div>
+                <div class="bg-[linear-gradient(45deg,rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url(./Images/2.png)] bg-no-repeat bg-cover rounded-2xl p-6 lg:p-10 space-y-4 lg:min-h-80">
+                    <h2 class="lg:mt-12 text-3xl font-extrabold">Junior Program</h2>
+                    <p class="text-base font-extralight leading-relaxed">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                        <button class=" rounded-2xl hover:text-red-600 hover:bg-white outline-none bg-red-600 text-white px-5 py-3 border-red-600 border-solid border-2 text-xl font-bold ">Register Now!</button>
+                </div>
+                <div class="bg-[linear-gradient(45deg,rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url(./Images/2.png)] bg-no-repeat bg-cover rounded-2xl p-6 lg:p-10 space-y-4  lg:min-h-80 lg:col-span-2 ">
+                    <h2 class="lg:mt-12 text-3xl font-extrabold">Junior Program</h2>
+                    <p class="text-base font-extralight leading-relaxed lg:w-1/2">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                        <button class=" rounded-2xl hover:text-red-600 hover:bg-white outline-none bg-red-600 text-white px-5 py-3 border-red-600 border-solid border-2 text-xl font-bold ">Register Now!</button>
+                </div>
+            </div>
+
+    </main>
+    <footer></footer>
+</body>
+</html>
